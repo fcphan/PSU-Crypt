@@ -5,9 +5,11 @@ This is an implementation of PSU-Crypt, a Feistel Cipher encryption based on Ski
 ## How to use
 
 _If not already downloaded from some other source_
-`git clone XXXX`
+
+`git clone https://github.com/fcphan/PSU-Crypt.git`
 
 _Otherwise run the following_
+
 `python3 main.py <mode> <input> <key> <output> <padding>*`
 
 - `<mode>` can either be `encrypt` or `decrypt`. Used to tell the program if it is encrypting or decrypting the given textfile.
@@ -39,7 +41,8 @@ _The following examples are making use of the default values found in the base f
 
 Encryption:
 `python3 main.py encrypt plaintext.txt key.txt ciphertext.txt`
-Decryotion:
+
+Decryption:
 `python3 main.py decrypt ciphertext.txt key.txt output.txt 20`
 
 ## Details on extra files
